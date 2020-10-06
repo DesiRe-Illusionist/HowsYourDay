@@ -100,17 +100,144 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<tw-storydata name="How is your day?" startnode="1" creator="Twine" creator-version="2.3.5" ifid="E9A1B9AF-E97E-4F0C-9201-8F9E5C42F6C0" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Title Page" tags="" position="418,104" size="100,100">[[start]]</tw-passagedata><tw-passagedata pid="2" name="start" tags="" position="413,237" size="100,100">This autumn morning is clear and crisp. 7 AM on a busy street in Beijing, an old man is riding a tricycle on the side of the stream of roaring cars. At the back seat of the tricycle seats a little boy, with a cute panda backpack. He carefully holds a colorful box with both of his hands.
+	<tw-storydata name="How is your day?" startnode="1" creator="Twine" creator-version="2.3.5" ifid="E9A1B9AF-E97E-4F0C-9201-8F9E5C42F6C0" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.container-outer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.boy {
+  width: 47%;
+  height: 80%;
+  position: relative;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: left;
+  left: 0%;
+  padding-right: 3%;
+  top: 5%;
+  color: #ffb3da;
+}
+
+.grandfather {
+  width: 47%;
+  height: 80%;
+  position: absolute;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: left;
+  right: 0%;
+  padding-left: 3%;
+  top: 5%;
+  color: #ffecb3;
+  border-left-style: solid;
+  border-left-color: white;
+  border-left-width: 2px;
+}
+
+.next {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.boy-single {
+  height: 80%;
+  position: relative;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: left;
+  left: 0%;
+  top: 5%;
+  color: #ffb3da;
+}
+
+.grandfather-single {
+  height: 80%;
+  position: relative;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: left;
+  left: 0%;
+  top: 5%;
+  color: #ffecb3;
+}
+
+.container-single {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.single {
+  height: 80%;
+  position: relative;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: left;
+  left: 0%;
+  top: 5%;
+  color: #fff2e6;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Title Page" tags="" position="418,104" size="100,100">&lt;div class=&quot;container-outer&quot;&gt;
+  &lt;p class=&quot;title_name&quot;&gt;How Is Your Day?&lt;/p&gt;
+  &lt;p class=&quot;author&quot;&gt;Tim Jia&lt;/p&gt;	
+  &lt;p class=&quot;start&quot;&gt;[[start]]&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  .container-outer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+  }
+  
+  .title_name {
+	position: relative;
+	color: #dcdcc8;
+	font-size: 50px;
+	font-family: &quot;Lucida Console&quot;, Courier, monospace;
+	text-align: center;
+	width: 100%;
+	top: 40%;
+  }
+  
+  .author {
+	position: relative;
+	color: #dcdcc8;
+	font-size: 30px;
+	font-family: &quot;Lucida Console&quot;, Courier, monospace;
+	text-align: center;
+	width: 100%;
+	top: 50%;
+  }
+  
+  .start {
+	position: relative;
+	font-size: 30px;
+	font-family: &quot;Lucida Console&quot;, Courier, monospace;
+	text-align: center;
+	width: 100%;
+	bottom: 10%;
+  }
+
+&lt;/style&gt;</tw-passagedata><tw-passagedata pid="2" name="start" tags="" position="413,237" size="100,100">&lt;div class=&quot;container-single&quot;&gt;
+&lt;div class=&quot;single&quot;&gt;
+This autumn morning is clear and crisp. 7 AM on a busy street in Beijing, an old man is riding a tricycle on the side of the stream of roaring cars. At the back seat of the tricycle seats a little boy, with a cute panda backpack. He carefully holds a colorful box with both of his hands.
 
 The little boy yells on top of the noise of the cool wind and traffic, &quot;Grandpa, what if Duoduo doesn&#39;t like my gift?&quot;
 
-The grandpa yells back, &quot;Don&#39;t worry my boy. I&#39;m sure she will like it!&quot; 
+The grandfather yells back, &quot;Don&#39;t worry my boy. I&#39;m sure she will like it!&quot; 
 
 &quot;That&#39;s great!&quot; 
 
 The boy&#39;s voice joyfully penetrates the dense air around people on the street. They all turn to look at the boy, and his blushed cheek put smiles on their faces. 
 
-Where does the blush come from? Is he shy or is it the [[autumn wind]]?</tw-passagedata><tw-passagedata pid="3" name="autumn wind" tags="" position="413,387" size="100,100">In front of a kindergarten, a small pile fall leaves drifts along by the curbside and eventually stops by the tricycle.
+Where does the blush come from? Is he shy or is it the autumn wind?
+&lt;/div&gt;
+
+&lt;div class=&quot;next&quot;&gt;[[next|autumn wind]]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="autumn wind" tags="" position="413,387" size="100,100">&lt;div class=&quot;container-single&quot;&gt;
+&lt;div class=&quot;single&quot;&gt;
+In front of a kindergarten, a small pile fall leaves drifts along by the curbside and eventually stops by the tricycle.
 
 The boy jumps off from the back seat, and the grandfather is standing by to hold him. With both hands sticking to the colorful box, the grandfather can only hold him on the arm.
 
@@ -120,11 +247,14 @@ The grandfather tidies up the boy&#39;s collar and pats on his back. &quot;Goodb
 
 &quot;Of course!&quot; The boys turns around and heads toward the entrance.
 
-The grandfather stands still, staring at the little boy until enters the building. He reaches into his pocket, and takes out a sealed envelope with carefully hand-written name and address on it.
+The grandfather stands still, staring at the little boy until he enters the building. He reaches into his pocket, and takes out an unsealed envelope. He takes a quick look inside the envelope and puts it back into his pocket. He strides onto the tricycle and rides away.
 
-The name is Jianguo Chen.
+Inside the envelope is a faded black and white photo of a young man standing in front of a train station.
+&lt;/div&gt;
 
-[[next|rise to challenge]]</tw-passagedata><tw-passagedata pid="4" name="rise to challenge" tags="" position="413,537" size="100,100">&lt;div class=&quot;boy&quot;&gt;
+&lt;div class=&quot;next&quot;&gt;[[next|expectation derail]]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="expectation derail" tags="" position="413,537" size="100,100">&lt;div class=&quot;container-outer&quot;&gt;
+&lt;div class=&quot;boy&quot;&gt;
 	The boy enters the classroom and looks around the room. Other boys and girls are chattering and playing with each other, but Duoduo is not among them.
 	
 	He sits down at his seat, and carefully puts the colorful box under his table. He does not join the his classmates like he usually would do. Instead, he sits at his seat and fixates his eyes at the classroom door, making sure no one coming into the door escapes his notice.
@@ -135,9 +265,157 @@ The name is Jianguo Chen.
 	
 	The first class of the day begins.
 &lt;/div&gt;
+&lt;div class=&quot;grandfather&quot;&gt;Various kinds of meat are laid on the board in front of the grandfather, at the same stall that he always buy meat from, but the butcher behind the stand is different. 
+	
+	Seeing the grandfather, the butcher asks, &quot;Would you like some meat? They are fresh!&quot;
+	
+	&quot;Uh...Is Jianguo Chen here today? He used to be here all the time.&quot; The grandfather asks.
+	
+	&quot;Oh, he just transferred this stall to me. He will not come here anymore.&quot;
+	
+	&quot;Oh okay. Thank you.&quot; Grandfather walks away, and then he quickly walks back. &quot;Actually, do you know where did he go?&quot;
+	
+	&quot;Sorry, I don&#39;t know.&quot;
+	
+	&quot;Alright. Thank you again.&quot; Grandfather walks away again.
+&lt;/div&gt;
+&lt;div class=&quot;next&quot;&gt;[[next|rise to challenge]]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="rise to challenge" tags="" position="413,687" size="100,100">&lt;div class=&quot;container-outer&quot;&gt;
+&lt;div class=&quot;boy&quot;&gt;
+	Second class, third class... Duoduo is still not here.
+	
+	By the end of the third class, the boy finally walks to the teacher. &quot;Hi Miss Zhang, do you know where is Duoduo?&quot; He looks concerned.
+	
+	&quot;Hi Lele. Her dad called in this morning. Duoduo is sick today, so she is probably resting at home now.&quot;
+	
+	&quot;Oh okay... thank you.&quot; The boy walks away disappointedly. Sitting at his seat and looking at the box under his table, the boy pouts.
+	
+	As the teacher curiously looks at the boy, he stands up again and walks to the teacher, &quot;Miss Zhang, can I borrow your phone to give Duoduo a call?&quot;
+&lt;/div&gt;
+&lt;div class=&quot;grandfather&quot;&gt;&quot;He must be in trouble...&quot;, Grandfather thinks to himself, &quot;...otherwise, he would not give up his stall so suddenly.&quot;
+	
+	As this thought occurs to him, he quickly gets on his tricycle. He does not know exactly where the butcher lives, but he remembers the butcher mentioned the neighborhood he lives in.
+	
+	That neighborhood is in a less central district, and it took Grandfather more than an hour of riding to get here. He asks around the local shops, and finally learns the butcher&#39;s address.
+	
+	As grandfather walks to this address, his heart is immediately tightened when he sees the door is open and a few workers are moving furnitures out of the apartment.
+&lt;/div&gt;
+&lt;div class=&quot;next&quot;&gt;[[next|defeat]]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="6" name="defeat" tags="" position="413,837" size="100,100">&lt;div class=&quot;container-outer&quot;&gt;
+&lt;div class=&quot;boy&quot;&gt;
+	&quot;What do you want to say to her? She is sick today so maybe we should not disturb her.&quot;
+	
+	&quot;Today is her birthday. I made her a gift...&quot; the boy looks at the box in his hands, &quot;...I just want to wish her happy birthday.&quot;
+	
+	Seeing the boy&#39;s sincere face and the colorful box in his hand, the teacher hesitates, &quot;In that case... okay. We can give it try. But you can only talk to her if she is not sleeping.&quot;
+	
+	&quot;Okay!&quot; The boy&#39;s penetrating voice sounds even louder indoor.
+	
+	The teacher takes out her phone and dials a number.
+&lt;/div&gt;
+&lt;div class=&quot;grandfather&quot;&gt; Knock, knock, kncok... Grandfather knocks the open door.
 
-&lt;div class=&quot;grandfather&quot;&gt;
-	The 
+The workers continue moving things out, as if they didn&#39;t hear anything. A few seconds later, a middle aged man walks out from inside the apartment.
+
+&quot;Is this Jianguo Chen&#39;s place?&quot; Grandfather asks.
+
+&quot;Yes, this was.&quot;  This man curiously scans grandfather&#39;s body. &quot;What&#39;s your relationship to Jianguo?&quot;
+
+&quot;I&#39;m...his customer. What happened to him?&quot;
+
+This man still looks curious, &quot;He went back to his hometown yesterday. I&#39;m his landlord, just cleaning this place.&quot;
+	
+&lt;/div&gt;
+&lt;div class=&quot;next&quot;&gt;[[boy|defeat-2-boy]] | [[grandfather|defeat-2-grandfather]]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="defeat-2-boy" tags="" position="310,1005" size="100,100">&lt;div class=&quot;container-single&quot;&gt;
+&lt;div class=&quot;boy-single&quot;&gt;
+	&quot;Hello. I&#39;m Lele. Can I speak to Duoduo?&quot; The boy immediately speaks after the phone is picked.
+	
+	&quot;Hi Lele. Duoduo is a little sick today. Let me see if she is up.&quot;
+		
+	A few seconds later, the phone is picked up again, &quot;Duoduo! Are you okay? I heard you are sick.&quot;
+	
+	&quot;Hi Lele. I&#39;m alright. I just took some medicine and I&#39;m feeling a little dizzy now.&quot; Duoduo&#39;s voice is soft.
+	
+	&quot;Happy birthday Duoduo! I made you a gift last night. Do you know what is it? It is a box of crayons! I made the box and I drew a picture of us on it! You can see it when you open it...&quot; As the boy speaks, he opens up the box. On the top of the box, from the inside, there are indeed a picture of a boy and a girl. They are wearing colorful clothes, hand in hand, laughing on a green land. &quot;...I really wish you can see it today!&quot; The boy continues.
+	
+	&quot;Lele...&quot; Duoduo&#39;s soft voice interrupts, &quot;my dad just asked me to rest in bed. Can we talk later?&quot;
+	
+	The boy&#39;s excitement is immediately hanged in the air. 
+		
+	&quot;Thank you Lele. Bye bye.&quot; The phone is hanged up before the boy says goodbye.
+&lt;/div&gt;
+
+&lt;div class=&quot;next&quot;&gt;[[grandfather|defeat-2-grandfather]] | [[next|trancendence-1]]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="8" name="trancendence-1" tags="" position="447,1178" size="100,100">&lt;div class=&quot;container-outer&quot;&gt;
+&lt;div class=&quot;boy&quot;&gt;
+	The boy lowers his head, silently staring at the box of crayons.
+	
+	The teacher calls the boy&#39;s name, &quot;Lele. Are you unhappy?&quot;
+	
+	The boy nods.
+	
+	&quot;I understand. Your gift is beautiful, and I&#39;m sure Duoduo will be very happy when she receives it. Will you be patient and just wait for a few days?&quot;
+	
+	&quot;But a few days is a long time!&quot;
+	
+	&quot;I know, but that&#39;s what makes that moment more precious. Right?&quot;
+	
+	&quot;Okay!&quot;
+&lt;/div&gt;
+&lt;div class=&quot;grandfather&quot;&gt; Grandfather lowers his head, silently staring at the photo.
+
+He lost the opportunity of sharing, but is it a loss for the butcher or himself? Maybe this sharing could have kept the butcher in Beijing, but isn&#39;t he happier going home?
+
+Grandfather stops thinking, because he still needs to buy grocery and then picks up his grandson.
+
+At the same stall, he buys his regular from the new butcher. As the butcher cuts the meat for him, grandfather asks, 
+
+&quot;Where are you from?&quot;
+
+He decides to waste no time this time.
+&lt;/div&gt;
+&lt;div class=&quot;next&quot;&gt;[[next|transcendence]]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="9" name="defeat-2-grandfather" tags="" position="566,992" size="100,100">&lt;div class=&quot;container-single&quot;&gt;
+&lt;div class=&quot;grandfather-single&quot;&gt;
+Hearing the butcher went home, grandfather releases the breath he&#39;s been holding. &quot;Okay... Do you know why he suddenly decided to go home?&quot; 
+
+&quot;I don&#39;t think it&#39;s a sudden decision. Didn&#39;t he tell you about this?&quot;
+
+Grandfather shakes his head. The landlord continues, &quot;Why are you looking for him? Do you need anything from him?&quot;
+
+&quot;No..no..I always buy meat from him so we are kind of familiar. He told me he is from Panshi, and I happen to live there when I was young, so I figured he would be interested in seeing this photo.&quot; Grandfather reaches to the envelope and brings up the faded black and white photo.
+
+&quot;...This is me 30 years ago. He probably remembers this train station.&quot;
+
+The landlord sighes, &quot;he probably would not leave here if you came earlier...&quot; Grandfather looks confused. The landlord continues, &quot;You are probably the first visitor he had in 5 years. He did save some money in Beijing, but he has no one to spend it with. After such a long time of loneliness, he finally decided to leave.&quot;
+&lt;/div&gt;
+
+&lt;div class=&quot;next&quot;&gt;[[boy|defeat-2-boy]] | [[next|trancendence-1]]&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="transcendence" tags="" position="447,1328" size="100,100">&lt;div class=&quot;container-single&quot;&gt;
+&lt;div class=&quot;single&quot;&gt;
+	The sun is tilting toward the west. The sunset sheds on the leaves on the trees and on the ground, painting the entire world into golden.
+	
+	The boy rushes out of the gate of the kindergarten, with the crayon box in his hand. The grandfather is standing outside, looking at the boy running to him.
+	
+	&quot;Lele, why do you still have the box?&quot;
+	
+	&quot;Duoduo didn&#39;t come here today because she is sick. I will give this to her when she&#39;s back.&quot;
+	
+	&quot;Then you will have a lot of wait.&quot;
+	
+	&quot;It&#39;s okay. The wait will make the gift more precious!&quot;
+	
+	Something about waiting goes across grandfather&#39;s mind. As he starts processing this thought, the boy&#39;s penetrating voice suddenly kicks everything in his mind out of him,
+	
+	&quot;How is your day grandfather?&quot;
+	
+	&quot;I had a wonderful day.&quot; In this moment, grandfather is perfectly honest. &quot;What about you?&quot;
+	
+	&quot;I had a great day as well!&quot; From grandfather&#39;s view point, the sun is blocked by the boy&#39;s smiling face, as if all the golden color in the world comes from the boy.
+	
+END.
+&lt;/div&gt;
 &lt;/div&gt;</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
